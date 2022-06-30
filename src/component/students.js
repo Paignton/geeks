@@ -10,7 +10,7 @@ const cardInfo = [
 ];
 
 function students() {
-  return <div>Student here! asnd they are angry</div>;
+  return <div>Student here!</div>;
 }
 
 export default students;
