@@ -14,15 +14,41 @@ code {
 
 .grid-container {
   display: grid;
-  grid-template-columns: 50% 50%;
-  background-color: #2196F3;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  background-color:aliceblue;
   padding: 10px;
 }
 
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
+  padding: 10px;
+  font-size: 20px;
   text-align: center;
+}
+
+/*Styling for Nav bar*/
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
 }
