@@ -12,7 +12,7 @@ const cardInfo = [
 function students() {
   return (
     <div>
-      Student here!
+      <h5>Student List</h5>
       <div className="grid-container">
         <div class="grid-item">
           <img src={require("./s1.png")}></img>
@@ -20,9 +20,27 @@ function students() {
           <p>3.8</p>
           <button>grade</button>
         </div>
-        <div class="grid-item">2</div>
-        <div class="grid-item">3</div>
-        <div class="grid-item">4</div>
+        <div class="grid-item">
+          {" "}
+          <img src={require("./s2.png")}></img>
+          <h1>Manal</h1>
+          <p>3.6</p>
+          <button>grade</button>
+        </div>
+        <div class="grid-item">
+          {" "}
+          <img src={require("./s3.png")}></img>
+          <h1>Moe</h1>
+          <p>3.2</p>
+          <button>grade</button>
+        </div>
+        <div class="grid-item">
+          {" "}
+          <img src={require("./s4.png")}></img>
+          <h1>Mary</h1>
+          <p>2.6</p>
+          <button>grade</button>
+        </div>
       </div>
       {/* card style that throws hook errors: <Card style={{ width: "18rem" }}>
         <Card.Img variant="top" src="holder.js/100px180" />
