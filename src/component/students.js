@@ -16,7 +16,9 @@ function students() {
       <div className="grid-container">
         <div class="grid-item">
           <img src={require("./s1.png")}></img>
-          <h1></h1>
+          <h1>Mike</h1>
+          <p>3.8</p>
+          <button>grade</button>
         </div>
         <div class="grid-item">2</div>
         <div class="grid-item">3</div>
